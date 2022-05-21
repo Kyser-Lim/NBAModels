@@ -120,3 +120,7 @@ if result == 2:
     referee = raw_input("Please type the name of the third crew: ")
     last_games = input("Please type the amount of games most recent: ")
     print("They average "+ str(ref_rotation_foul_avg(ref_db_hm, crew_chief_input, umpire, referee, last_games)) + " fouls over the last " + str(last_games) + " games.")
+
+#need to add logic for if the ref has no prior history as a crew chief
+#need to add differential logic
+#need to add logic that allows cross reference between ref foul history and a team or with home/away

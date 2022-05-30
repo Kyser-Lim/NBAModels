@@ -230,5 +230,5 @@ if result == 2:
     print("They average "+ str(ref_rotation_foul_avg(ref_db_hm, crew_chief_input, umpire, referee, last_games)) + " fouls over the last " + str(last_games) + " games.")
     print("They average "+ str(ref_rotation_foul_diff_avg(ref_db_hm, crew_chief_input, umpire, referee, last_games)) + " foul differential over the last " + str(last_games) + " games.")
 
-
+ 
 #need to add logic that allows cross reference between ref foul history and a team or with home/away
